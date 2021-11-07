@@ -612,7 +612,7 @@ def pushPlus():
 #定义server 酱的消息推送函数
 def serverjiang():
     global a
-    # serverkey = $serverkey
+    serverkey = "SCT80015T0Pxq1flZNmeCcHn0LzqYRBR6"
     message = a._buff
     pushurl="https://sctapi.ftqq.com/"
     head_server ={"Host": "sctapi.ftqq.com","User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Mobile Safari/537.36","content-type":"application/x-www-form-urlencoded"}
